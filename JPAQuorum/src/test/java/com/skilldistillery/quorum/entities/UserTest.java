@@ -103,7 +103,7 @@ class UserTest {
     @Test
     void test_Biography() {
         assertNotNull(user);
-        assertEquals("Biography of John \nSmith", user.getBiography());
+        assertEquals("🌌 Astrophysics enthusiast - chasing stars and unraveling the universe's mysteries. #Stargazer 🌠", user.getBiography());
     }
 
     @Test
@@ -116,7 +116,7 @@ class UserTest {
     @Test
     void test_ProfileImageUrl() {
         assertNotNull(user);
-        assertEquals("http://example.com/johnsmith.jpg", user.getProfileImageUrl());
+        assertEquals("https://bostonportrait.com/wp-content/uploads/sites/11977/2021/03/Hecht-Ana-731x1024.jpg", user.getProfileImageUrl());
     }
     
     @Test
